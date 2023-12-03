@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@gmail.com",
+      "password": "1234",
+      "createdAt": 1700313547023
+    },
+    {
+      "id": 2,
+      "email": "user2@gmail.com",
+      "password": "1234",
+      "createdAt": 1700313547024
+    },
+    {
+      "id": 3,
+      "email": "user3@gmail.com",
+      "password": "1234",
+      "createdAt": 1700313547025
+    }
+  ],
+  "notes": [
+    {
+      "title": "the first note of the first user",
+      "text": "first note body",
+      "createdAt": 1700313547024,
+      "authorId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "authorId": 1,
+      "title": "the second note of the first user",
+      "text": "second note body",
+      "createdAt": 1700313547024
+    },
+    {
+      "id": 3,
+      "authorId": 2,
+      "title": "the first note of the second user",
+      "text": "first note body",
+      "createdAt": 1700313547024
+    },
+    {
+      "id": 4,
+      "authorId": 2,
+      "title": "the second note of the second user",
+      "text": "second note body",
+      "createdAt": 1700313547024
+    },
+    {
+      "title": "the first note of the third user",
+      "text": "first note body",
+      "createdAt": 1700313547024,
+      "authorId": 3,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "authorId": 3,
+      "title": "the second note of the third user",
+      "text": "second note body",
+      "createdAt": 1700313547024
+    }
+  ]
+}
